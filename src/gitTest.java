@@ -12,6 +12,18 @@ public class gitTest {
                 '}';
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSecondName(String secondName) {
+        this.secondName = secondName;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     public gitTest(String name, String secondName, int age) {
         this.name = name;
         this.secondName = secondName;
