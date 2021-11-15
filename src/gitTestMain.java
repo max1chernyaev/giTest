@@ -12,6 +12,8 @@ public class gitTestMain extends gitTest{
         user1.setAge(30);
         user2.setName("Mark");
 
+        System.out.println(user3.hashCode());
+
         System.out.println(user1);
 
     }
