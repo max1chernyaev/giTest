@@ -10,6 +10,7 @@ public class gitTestMain extends gitTest{
         gitTest user3 = new gitTest("Sam", "Wilson", 45);
 
         user1.setAge(30);
+        user2.setName("Mark");
 
         System.out.println(user1);
 
