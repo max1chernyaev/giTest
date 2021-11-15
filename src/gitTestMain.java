@@ -9,6 +9,8 @@ public class gitTestMain extends gitTest{
         gitTest user2 = new gitTest("Jack", "Black", 60);
         gitTest user3 = new gitTest("Sam", "Wilson", 45);
 
+        user1.setAge(30);
+
         System.out.println(user1);
 
     }
